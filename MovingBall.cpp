@@ -10,11 +10,11 @@ int main()
 {
 	for (int i = 0; i < LENGTH; i++) {
 		system("CLS");
-		for (int i = 0; i < LENGTH; i++)
+		for (int j = 0; j < LENGTH; j++)
 		{
-			if (i != ballX)
+			if (j != ballX)
 				cout << "-";
-			else if (i == ballX) {
+			else if (j == ballX) {
 				cout << "O";
 			}
 		}
